@@ -1,0 +1,27 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "Test-tecnico-front-end",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon -e js,jsx,css,json index.js"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "chalk": "^4.1.0",
+    "connect-livereload": "^0.6.1",
+    "cors": "^2.8.5",
+    "css-loader": "^4.2.1",
+    "express": "^4.17.1",
+    "express-react-views": "^0.11.0",
+    "nodemon": "^2.0.4",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "style-loader": "^1.2.1"
+  },
+  "devDependencies": {
+    "extract-text-webpack-plugin": "^3.0.2"
+  }
+}
